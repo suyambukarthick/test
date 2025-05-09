@@ -4,12 +4,12 @@
 MyItemModel::MyItemModel(QObject *parent)
     : QAbstractItemModel(parent)
 {
-    modeldatalistl <<"suyambu" <<
-        "karthick" <<
-        "saritha" <<
-        "saritha 1" <<
-        "saritha 2" <<
-        "abi";
+    modeldatalistl <<"Apple" <<
+        "Banana" <<
+        "Orange" <<
+        "Mango" <<
+        "Dragon Fruit" <<
+        "Amla";
 
     qDebug()<<modeldatalistl;
 }
